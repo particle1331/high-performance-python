@@ -1,3 +1,6 @@
+import numpy as np
+
+
 class Particle:
     def __init__(self, x, y, angular_vel):
         self.x = x
