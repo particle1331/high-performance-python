@@ -43,7 +43,7 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=find_packages(exclude=("tests",)),
+    packages=find_packages(),
     package_data={PACKAGE_NAME: ["VERSION"]},
     install_requires=INSTALL_REQUIRES,
     extras_require={},
