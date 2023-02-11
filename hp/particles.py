@@ -2,7 +2,7 @@ import numpy as np
 
 
 class Particle:
-    __slots__ = ('x', 'y', 'ω') 
+    __slots__ = ("x", "y", "ω")
     
     def __init__(self, x, y, angular_vel):
         self.x = x
